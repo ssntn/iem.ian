@@ -14,7 +14,7 @@
                 <a class="nav-link text-white fw-light" href="#list">List</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-light" href="#footer">About</a>
+                <a class="nav-link text-white fw-light" href="#footer">Contact</a>
             </li>
         </ul>
     </div>

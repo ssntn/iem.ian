@@ -2,7 +2,22 @@
   background-color: #0f1110;
 } */
 
-section {
+section .full {
   height: 100vh;
-  margin-bottom: 10vh;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+footer p,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer a {
+  color: white;
 }
