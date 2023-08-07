@@ -21,3 +21,34 @@ footer h6,
 footer a {
   color: white;
 }
+/* Define CSS variables for scrollbar colors */
+:root {
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Transparent scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Transparent scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color);
+}
+
+/* Transparent scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 0px;
+}
+
+/* On hover, you can change the thumb color */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b8860b;
+}
+
+/* Optional: Hide the scrollbar track */
+::-webkit-scrollbar-track {
+  display: none;
+}
