@@ -1,23 +1,19 @@
-<?php include './components/header.php' ?>
-    
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
+
+<section style="background-image: url('./assets/img/iem.png'); height: 100vh; background-repeat: no-repeat; background-size: cover; background-position: center">
+    <?php include './components/navbar.php' ?>
+    <div class="d-flex flex-column justify-content-center align-items-center h-50">
+        <h1 class="text-white fw-bold">IEM-IAN</h1>
+        <h5 class="text-white fw-light">iems. cracked.</h3>
     </div>
-  </div>
-</nav>
+</section>
+
+
+<section>
+    <h3>My IEM experience</h2>
+    <div>
+        <p>List</p>
+    </div>
+</section>
+    
+    
+<?php include './components/footer.php' ?>
