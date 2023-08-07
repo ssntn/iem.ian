@@ -11,10 +11,10 @@
                 <a class="nav-link active text-white fw-light" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-light" href="#">List</a>
+                <a class="nav-link text-white fw-light" href="#list">List</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-light" href="#">About</a>
+                <a class="nav-link text-white fw-light" href="#footer">About</a>
             </li>
         </ul>
     </div>
